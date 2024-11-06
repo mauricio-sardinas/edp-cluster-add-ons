@@ -2,6 +2,8 @@
 # In this case, "in-cluster" indicates that the deployment will happen within the Kubernetes cluster itself.
 destinationServer: "in-cluster"
 
+argoNamespace: edp
+
 # Specifies the URL of the Git repository from which the code will be pulled for deployment.
 # It is provided in the SSH format, indicating the username (`ci`), hostname (`git.example.com`),
 # and port (`22`) of the Git server, along with the repository path (`cluster-add-ons`).
