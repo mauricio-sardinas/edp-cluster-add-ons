@@ -206,7 +206,7 @@ eso:
   # -- Install components of the ESO.
   enabled: true
   # -- Defines provider type. One of `aws` or `generic`.
-  type: "aws"
+  type: "generic"
   # -- Defines Secret Store name.
   secretStoreName: "aws-parameterstore-keycloak"
   # -- Value name in AWS ParameterStore, AWS SecretsManager or other Secret Store.
@@ -217,6 +217,10 @@ eso:
   generic:
     secretStore:
       # -- Defines SecretStore provider configuration.
-      providerConfig: {}
+      providerConfig: 
+        aws:
+          auth: {}
+          region: us-east-1
+          service: ParameterStore
       #  gcpsm:
       #    projectID: "alphabet-123"
