@@ -214,7 +214,7 @@ eso:
   # -- Role ARN for the ExternalSecretOperator to assume.
   roleArn: arn:aws:iam::079548491565:role/AWSIRSA_Edp_ExternalSecretOperatorAccess
 
-  regsion: us-east-1
+  region: us-east-1
   # Defines Secret Store configuration. Used when eso.type is set to "generic".
   generic:
     secretStore:
