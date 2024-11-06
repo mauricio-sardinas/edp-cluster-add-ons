@@ -60,8 +60,8 @@ kuberocketci-rbac:
   enable: false
 
 external-secrets:
-  createNamespace: false
-  enable: false
+  createNamespace: true
+  enable: true
 
 # fluent-bit can be installed as a single component
 fluent-bit:
@@ -138,8 +138,8 @@ opentelemetry-operator:
 
 # Postgres Operator
 postgres-operator:
-  createNamespace: false
-  enable: false
+  createNamespace: true
+  enable: true
 
 report-portal:
   createNamespace: false
