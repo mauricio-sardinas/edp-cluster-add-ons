@@ -162,7 +162,7 @@ sonar-operator:
   enable: false
 
 storage-class:
-  enable: false
+  enable: true
 
 tekton-cache:
   createNamespace: false
