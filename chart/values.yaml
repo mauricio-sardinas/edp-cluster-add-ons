@@ -52,8 +52,8 @@ dependency-track:
   enable: false
 
 edp:
-  createNamespace: false
-  enable: false
+  createNamespace: true
+  enable: true
 
 kuberocketci-rbac:
   createNamespace: true
