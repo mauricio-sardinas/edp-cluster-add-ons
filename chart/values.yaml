@@ -83,12 +83,12 @@ harbor-ha-okd:
   enable: false
 
 ingress-nginx:
-  createNamespace: false
-  enable: false
+  createNamespace: true
+  enable: true
 
 ingress-nginx-external:
-  createNamespace: false
-  enable: false
+  createNamespace: true
+  enable: true
 
 jaeger-operator:
   enable: false
