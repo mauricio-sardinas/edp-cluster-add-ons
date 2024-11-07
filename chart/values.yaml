@@ -56,8 +56,8 @@ edp:
   enable: false
 
 kuberocketci-rbac:
-  createNamespace: false
-  enable: false
+  createNamespace: true
+  enable: true
 
 external-secrets:
   createNamespace: true
